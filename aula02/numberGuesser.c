@@ -23,7 +23,7 @@ void numberGuesser(){
     int guess;
 
     //printf("\nNumero gerado: %i", randomNumber);
-    printf("\n[ *** VOCE TEM 5 CHANCES! *** ]");
+    printf("\n[ *** VOCE TEM %i CHANCES! *** ]", GUESSES);
 
     for(int i = GUESSES; i > 0; i--){
         printf("\n[ CHANCES RESTANTES : [%i] ]", i);

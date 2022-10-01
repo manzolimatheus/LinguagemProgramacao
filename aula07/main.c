@@ -1,16 +1,15 @@
 #include <stdio.h>
-
-//Funções em C
-void printLine(char character, int quantity) {
-    for(int i = 0; i < quantity; i++) {
-        printf("%c", character);
-    }
-}
+#include "calculator.c"
 
 int main() {
 
-    printLine('*', 10);
-    printLine(':', 6);
+    printf("%i", sum(2, 2));
+    printf("\n");
+    printf("%i", sub(2, 2));
+    printf("\n");
+    printf("%i", mult(2, 2));
+    printf("\n");
+    printf("%lf", div(2, 5));
 
     return 0;
 }
